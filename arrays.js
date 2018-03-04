@@ -8,3 +8,11 @@ function destructivelyAddElementToBeginningOfArray(list,extra) {
   return list.unshift(extra);
 }
 
+function addElementToEndOfArray(list,extra) {
+  var newList = [list,...extra];
+  return newList;
+}
+
+function destructivelyAddElementToBeginningOfArray(list,extra) {
+  return list.push(extra);
+}
