@@ -19,3 +19,7 @@ function destructivelyAddElementToBeginningOfArray(list,element) {
   list = list.push(element);
   return list;
 }
+
+function accessElementInArray(array,index) {
+  return array[index];
+}
