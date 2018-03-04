@@ -8,7 +8,7 @@ function addElementToBeginningOfArray(list,element) {
 function destructivelyAddElementToBeginningOfArray(list,element) {
   return list.unshift(element);
 }
-/////////////////////help V
+/////////////////////help Vx2
 function addElementToEndOfArray(list,element) {
   var newList = list.push(element);
   return newList;
