@@ -6,8 +6,7 @@ function addElementToBeginningOfArray(list,element) {
 }
 ///////////////////////help V
 function destructivelyAddElementToBeginningOfArray(list,element) {
-  var newList = list.unshift(element);
-  return newList;
+  return list.unshift(element);
 }
 /////////////////////help V
 function addElementToEndOfArray(list,element) {
