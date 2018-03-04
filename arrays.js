@@ -4,17 +4,17 @@ function addElementToBeginningOfArray(list,element) {
   var newList = [element,...list];
   return newList;
 }
-
+///////////////////////help V
 function destructivelyAddElementToBeginningOfArray(list,element) {
   const newList = list.unshift(element);
   return newList;
 }
-
+/////////////////////help V
 function addElementToEndOfArray(list,element) {
   var newList = [list,...element];
   return newList;
 }
-
+/////////////////////help V
 function destructivelyAddElementToEndOfArray(list,element) {
   const newList = list.push(element);
   return newList;
