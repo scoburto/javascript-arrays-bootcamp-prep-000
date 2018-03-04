@@ -5,16 +5,17 @@ function addElementToBeginningOfArray(list,element) {
   return newList;
 }
 
-function destructivelyAddElementToBeginningOfArray(list,extra) {
-  var newList = list.unshift(extra);
+function destructivelyAddElementToBeginningOfArray(list,element) {
+  var newList = list.unshift(element);
   return newList;
 }
 
-function addElementToEndOfArray(list,extra) {
-  var newList = [list,...extra];
+function addElementToEndOfArray(list,element) {
+  var newList = [list,...element];
   return newList;
 }
 
-function destructivelyAddElementToBeginningOfArray(list,extra) {
-  return list.push(extra);
+function destructivelyAddElementToBeginningOfArray(list,element) {
+  var newList = list.push(element);
+  return newList;
 }
