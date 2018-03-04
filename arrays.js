@@ -10,7 +10,7 @@ function destructivelyAddElementToBeginningOfArray(list,element) {
 }
 /////////////////////help Vx2
 function addElementToEndOfArray(list,element) {
-  var newList = list.push(element);
+  var newList = [element,...list];
   return newList;
 }
 /////////////////////help V
